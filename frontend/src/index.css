@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+}
+
+/* For Text above the Hero Image */
+.animate-border {
+    text-shadow: 0 1px 4px #00ffff, 0 1px 6px #00ffff;
+    border-color: #00ffff;
+}
+
+
+/* For Headline below the Navbar */
+.headline-text {
+  display: inline-block;
+  animation: slide 10s linear forwards;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%); /* ⭐ Start fully from right */
+  }
+  100% {
+    transform: translateX(0%); /* Fully gone */
+  }
+}
