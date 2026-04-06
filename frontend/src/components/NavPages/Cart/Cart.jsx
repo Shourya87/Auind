@@ -1,7 +1,7 @@
 // src/components/NavPages/Cart/CartPage.jsx
 
 import React from "react";
-import { useCart } from "/Users/shour/VS code/Daily-Codes/AUIND/frontend/src/components/Context/CardContext";
+import { useCart } from "../../Context/CardContext";
 import { FaTrash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
