@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { AllProducts } from "/Users/shour/VS code/Daily-Codes/AUIND/frontend/src/components/Context/AllProducts"
+import { AllProducts } from "../../Context/AllProducts"
 
 export default function Search() {
 

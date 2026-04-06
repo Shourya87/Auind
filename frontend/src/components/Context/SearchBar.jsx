@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { AllProducts } from "/Users/shour/VS code/Daily-Codes/AUIND/frontend/src/components/Context/AllProducts";
+import { AllProducts } from "../../components/Context/AllProducts";
 
 export default function SearchBar() {
 
