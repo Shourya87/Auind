@@ -11,7 +11,7 @@ import Accessories from "./components/NavPages/Accessories/Accessories";
 import Sale from "./components/NavPages/Sales/Sales";
 import Home from "./components/Home";
 import Cart from "./components/NavPages/Cart/Cart.jsx";
-import Wishlist from "./components/NavPages/Wishlist/wishlist.jsx";
+import Wishlist from "./components/NavPages/Wishlist/Wishlist.jsx";
 import Product from "./components/NavPages/Product/Product.jsx";
 import Search from "./components/NavPages/Search/Search.jsx";
 
